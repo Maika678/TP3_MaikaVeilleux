@@ -4,6 +4,7 @@
 
 1. Déterminer où le .exe stocke la BD locale :
    a) Démarrer l'outil Process Monitor puis lancer l'application et effectuer une action qui effectue une modification (ex. : créer un utilisateur). Une fois l'action terminée, arrêtez la capture en cliquant sur le bouton "Capture"
+   ![creer.png](creer.png)
 3. Etape 2 + copie d'écran
 4. etc.
 
