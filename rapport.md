@@ -9,8 +9,9 @@
    ![filtres.png](filtres.png) <br>
 2. Ouvrir le fichier de la BD trouvé plus haut avec l'application DataGrip : <br>
    ![data.png](data.png) <br>
-4. Dans l'application, utiliser l'option "Les premiers ministres". <br>
+4. Dans l'application, créer de nouveaux comptes utilisateurs et utiliser l'option "Les premiers ministres". <br>
    ![ministre.png](ministre.png) <br>
+5. Rafraichir la table MUtilisateur et constater que nous avons accès aux mots de passes des comptes créés et de tous les premiers ministres.
 
 ### Correctif implanté
 
