@@ -7,7 +7,8 @@
    ![creer.png](creer.png) <br>
    b) Entrer des filtres pour obtenir une opération d'écriture provenant de notre exécutable et localiser l'emplacement de la BD. <br>
    ![filtres.png](filtres.png) <br>
-3. Etape 2 + copie d'écran
+2. Ouvrir le fichier de la BD trouvé plus haut avec l'application DataGrip : <br>
+   ![data.png](data.png) <br>
 4. etc.
 
 ### Correctif implanté
