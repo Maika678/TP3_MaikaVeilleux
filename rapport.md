@@ -3,9 +3,9 @@
 ## Attaque 1: BD fuitée et mot de passe
 
 1. Déterminer où le .exe stocke la BD locale :
-   a) Démarrer l'outil Process Monitor puis lancer l'application et effectuer une action qui effectue une modification (ex. : créer un utilisateur). Une fois l'action terminée, arrêtez la capture en cliquant sur le bouton "Capture"
+   a) Démarrer l'outil Process Monitor puis lancer l'application et effectuer une action qui effectue une modification (ex. : créer un utilisateur). Une fois l'action terminée, arrêtez la capture en cliquant sur le bouton "Capture" <br>
    ![creer.png](creer.png)
-   b) Entrer des filtres pour obtenir une opération d'écriture provenant de notre exécutable et localiser l'emplacement de la BD.
+   b) Entrer des filtres pour obtenir une opération d'écriture provenant de notre exécutable et localiser l'emplacement de la BD. <br>
    ![filtres.png](filtres.png)
 3. Etape 2 + copie d'écran
 4. etc.
