@@ -9,7 +9,8 @@
    ![filtres.png](filtres.png) <br>
 2. Ouvrir le fichier de la BD trouvé plus haut avec l'application DataGrip : <br>
    ![data.png](data.png) <br>
-4. etc.
+4. Dans l'application, utiliser l'option "Les premiers ministres". <br>
+   ![ministre.png](ministre.png) <br>
 
 ### Correctif implanté
 
