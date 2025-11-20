@@ -13,6 +13,8 @@
    ![ministre.png](ministre.png) <br>
 5. Rafraichir la table MUtilisateur et constater que nous avons accès aux mots de passes hachés des comptes créés et de tous les premiers ministres.
    ![table.png](table.png) <br>
+6. 5 des 7 mots de passes ont pu être craqués à l'aide de CrackStation.
+   ![crack.png](crack.png) <br>
 
 ### Correctif implanté
 
