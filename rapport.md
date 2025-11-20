@@ -5,7 +5,7 @@
 1. Déterminer où le .exe stocke la BD locale : <br>
    a) Démarrer l'outil Process Monitor puis lancer l'application et effectuer une action qui effectue une modification (ex. : créer un utilisateur). Une fois l'action terminée, arrêtez la capture en cliquant sur le bouton "Capture" <br>
    ![creer.png](creer.png) <br>
-   b) Entrer des filtres pour obtenir une opération d'écriture provenant de notre exécutable et localiser l'emplacement de la BD. Dans notre cas, la BD se situe dans le répertoire C:\Users\1776430\data\data\ <br>
+   b) Entrer des filtres pour obtenir une opération d'écriture provenant de notre exécutable et localiser l'emplacement de la BD. Dans notre cas, la BD se situe dans le répertoire C:\Users\1776430\data\data\. <br>
    ![filtres.png](filtres.png) <br>
 2. Ouvrir le fichier de la BD trouvé plus haut avec l'application DataGrip : <br>
    ![data.png](data.png) <br>
