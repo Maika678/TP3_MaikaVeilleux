@@ -12,6 +12,7 @@
 4. Dans l'application, créer de nouveaux comptes utilisateurs et utiliser l'option "Les premiers ministres". <br>
    ![ministre.png](ministre.png) <br>
 5. Rafraichir la table MUtilisateur et constater que nous avons accès aux mots de passes des comptes créés et de tous les premiers ministres.
+   ![table.png](table.png) <br>
 
 ### Correctif implanté
 
