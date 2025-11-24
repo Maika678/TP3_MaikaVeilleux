@@ -25,9 +25,13 @@ Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
 
 ## Attaque 2: BD fuitée et encryption
 
-1. Etape 1 + copie d'écran
-2. Etape 2 + copie d'écran
-3. etc.
+1. Dans l'application, créer un utilisateur avec le NAS 123456789. <br>
+   ![test.png](test.png) <br>
+2. Rafraichir la table MUtilisateur pour construire la table de traduction. Dans notre cas : 123456789 = bdfhjlnpr. Donc, 1=b, 2=d et ainsi de suite. <br>
+   ![testbd.png](testbd.png) <br>
+4. Utiliser l'IA pour traduire tout les autres NAS chiffrés. <br>
+   ![gpt.png](gpt.png) <br>
+   ![gptrep.png](gptrep.png) <br>
 
 ### Correctif implanté
 
