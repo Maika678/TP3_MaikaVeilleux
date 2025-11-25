@@ -18,7 +18,7 @@
 
 ### Correctif implanté
 
-Description du correctif.
+Implanter Bcrypt dans le code source de l'application et changer les fonctions "HacherLeMotDePasse" et "VerifierLeMotDePasse" pour utiliser la librairie qui implante Bcrypt.
 
 Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
 
