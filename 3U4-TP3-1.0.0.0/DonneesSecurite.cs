@@ -39,7 +39,7 @@ namespace consoleApp
         public static bool VerifierLeMotDePasse(string motDePasse, string hache)
         {
             // Calcule le hachage MD5 du mot de passe fourni et le compare avec le haché stocké
-            return hache == DonneesSecurite.HacherLeMotDePasse(motDePasse);
+            return BCrypt.Net.BCrypt.Verify(motDePasse, hache);
         }
         
     }

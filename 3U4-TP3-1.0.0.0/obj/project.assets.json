@@ -44,7 +44,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.18": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -251,7 +251,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.18": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -402,10 +402,10 @@
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.18": {
-      "sha512": "OiXqr2YIBEV9dsAWEtasK470ALyJ0VxJ9k4MotOxlWV6HeEgrJKYMW4HHj1OCCXvqE0/A25wEKPkpfiBARgDZA==",
+    "Microsoft.NET.ILLink.Tasks/8.0.13": {
+      "sha512": "R19ZTaRiQAK+xo9ZwaHbF/1vb1wwR1Wn5+sqp9v8+CDjbdS8R6qftKdw0VSXWKm7VAMi7P+NCU4zxDzhEWcAwQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.18",
+      "path": "microsoft.net.illink.tasks/8.0.13",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -419,7 +419,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.13.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -587,28 +587,28 @@
     "net8.0": [
       "BCrypt.Net-Next >= 4.0.3",
       "Microsoft.Data.Sqlite >= 8.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.18",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.13",
       "Sharprompt >= 3.0.0-preview4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1776430\\.nuget\\packages\\": {},
+    "C:\\Users\\Maika Veilleux\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1776430\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\consoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Maika Veilleux\\OneDrive\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\consoleApp.csproj",
       "projectName": "consoleApp",
-      "projectPath": "C:\\Users\\1776430\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\consoleApp.csproj",
-      "packagesPath": "C:\\Users\\1776430\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1776430\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\obj\\",
+      "projectPath": "C:\\Users\\Maika Veilleux\\OneDrive\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\consoleApp.csproj",
+      "packagesPath": "C:\\Users\\Maika Veilleux\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maika Veilleux\\OneDrive\\Documents\\GitHub\\TP3_MaikaVeilleux\\3U4-TP3-1.0.0.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1776430\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maika Veilleux\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -617,7 +617,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -636,7 +635,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -653,7 +652,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.18, )",
+            "version": "[8.0.13, )",
             "autoReferenced": true
           },
           "Sharprompt": {
@@ -675,19 +674,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.13, 8.0.13]"
           },
           {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.13, 8.0.13]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.13, 8.0.13]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[8.0.18, 8.0.18]"
+            "version": "[8.0.13, 8.0.13]"
           }
         ],
         "frameworkReferences": {
@@ -695,7 +694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
