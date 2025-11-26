@@ -20,7 +20,13 @@
 
 Implanter Bcrypt dans le code source de l'application et changer les fonctions "HacherLeMotDePasse" et "VerifierLeMotDePasse" pour utiliser la librairie qui implante Bcrypt.
 
-Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
+Preuve que l'attaque ne fonctionne plus :
+1. créer un utilisateur et utiliser l'option "Les premiers ministres". <br> 
+   ![util.png](util.png) <br>
+2. Rafraichir la table MUtilisateur et tenter de craquer le mot de passe des ministres et du nouvel utilisateur à l'aide de CrackStation. <br>
+   ![utilmdp.png](utilmdp.png) <br>
+   ![crackimpo.png](crackimpo.png) <br>
+   
 
 
 ## Attaque 2: BD fuitée et encryption
