@@ -18,7 +18,8 @@
 
 ### Correctif implanté
 
-Implanter Bcrypt dans le code source de l'application et changer les fonctions "HacherLeMotDePasse" et "VerifierLeMotDePasse" pour utiliser la librairie qui implante Bcrypt.
+Implanter Bcrypt dans le code source de l'application et changer les fonctions "HacherLeMotDePasse" et "VerifierLeMotDePasse" pour utiliser la librairie qui implante Bcrypt. <br>
+![code.png](code.png) <br>
 
 Preuve que l'attaque ne fonctionne plus :
 1. créer un utilisateur et utiliser l'option "Les premiers ministres". <br> 
@@ -26,6 +27,7 @@ Preuve que l'attaque ne fonctionne plus :
 2. Rafraichir la table MUtilisateur et tenter de craquer le mot de passe des ministres et du nouvel utilisateur à l'aide de CrackStation. <br>
    ![utilmdp.png](utilmdp.png) <br>
    ![crackimpo.png](crackimpo.png) <br>
+Les mots de passes n'ont pas pu être craqués.
    
 
 
