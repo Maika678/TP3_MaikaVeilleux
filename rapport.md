@@ -49,6 +49,8 @@ implanter un algorythme d'encryption dans l'application et modifier les fonction
 Preuve que l'attaque ne fonctionne plus : <br>
 1. Dans l'application, utiliser l'option "Les premiers ministres".
    ![app.png](app.png) <br>
+2. Rafraichir la table MUtilisateur.
+   ![mutils.png](mutils.png) <br>
 
 ## Attaque 3 Injection SQL
 
