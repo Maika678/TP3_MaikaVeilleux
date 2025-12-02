@@ -46,7 +46,9 @@ Les mots de passes n'ont pas pu être craqués.
 implanter un algorythme d'encryption dans l'application et modifier les fonctions "Encrypter" et "Decrypter" pour utiliser cet algorythme.<br>
 ![donnees.png](donnees.png) <br>
 
-Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
+Preuve que l'attaque ne fonctionne plus : <br>
+1. Dans l'application, utiliser l'option "Les premiers ministres".
+   ![app.png](app.png) <br>
 
 ## Attaque 3 Injection SQL
 
