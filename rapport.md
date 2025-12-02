@@ -51,6 +51,7 @@ Preuve que l'attaque ne fonctionne plus : <br>
    ![app.png](app.png) <br>
 2. Rafraichir la table MUtilisateur.
    ![mutils.png](mutils.png) <br>
+Sans la clé, c'est maintenant impossible pour l'attaquant de décrypter les NAS.
 
 ## Attaque 3 Injection SQL
 
