@@ -47,11 +47,11 @@ implanter un algorythme d'encryption dans l'application et modifier les fonction
 ![donnees.png](donnees.png) <br>
 
 Preuve que l'attaque ne fonctionne plus : <br>
-1. Dans l'application, utiliser l'option "Les premiers ministres".
+1. Dans l'application, utiliser l'option "Les premiers ministres" et créer un utilisateur avec le NAS 123456789.
    ![app.png](app.png) <br>
 2. Rafraichir la table MUtilisateur.
    ![mutils.png](mutils.png) <br>
-Sans la clé, c'est maintenant impossible pour l'attaquant de décrypter les NAS.
+Il est maintenant impossible de créer une table de traduction. Sans la clé, l'attaquant n'est pas en mesure de décrypter les NAS.
 
 ## Attaque 3 Injection SQL
 
