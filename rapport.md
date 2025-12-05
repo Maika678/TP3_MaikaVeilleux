@@ -61,6 +61,8 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
    ![injection.png](injection.png) <br>
 3. Rafraichir la table MUtilisateur et constater que nous avons un message d'erreur puisqu'elle n'existe plus. <br>
    ![erreurtable.png](erreurtable.png) <br>
+4. Pour changer le mot de passe de Justin Trudeau, entrer la requête suivante dans l'application : "';  UPDATE MUtilisateur SET motDePasse = 'Passw0rd' WHERE nom = 'Justin Trudeau';  --"
+   ![trudeau.png](trudeau.png) <br>
 
 ### Correctif implanté
 
