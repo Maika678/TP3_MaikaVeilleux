@@ -55,9 +55,10 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 
 ## Attaque 3 Injection SQL
 
-1. Etape 1 + copie d'écran
-2. Etape 2 + copie d'écran
-3. etc.
+1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres".
+   ![creersql.png](creersql.png) <br>
+3. Etape 2 + copie d'écran
+4. etc.
 
 ### Correctif implanté
 
