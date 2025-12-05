@@ -55,10 +55,11 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 
 ## Attaque 3 Injection SQL
 
-1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres".
+1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres" pour avoir des données.
    ![creersql.png](creersql.png) <br>
-3. Etape 2 + copie d'écran
-4. etc.
+3. Choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --" avec un mot de passe quelconque. La fonction de l'application ne fonctionnera pas mais la requête va supprimer la table MUtilisateurs puisque le commentaire -- permet d'ignorer la fin de la première requête.
+   ![injection.png](injection.png) <br>
+5. etc.
 
 ### Correctif implanté
 
