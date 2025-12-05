@@ -69,5 +69,6 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 ### Correctif implanté
 
 Description du correctif.
+![correctifsql.png](correctifsql.png) <br>
 
 Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
