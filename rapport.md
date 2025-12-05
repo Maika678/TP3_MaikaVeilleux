@@ -59,7 +59,8 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
    ![creersql.png](creersql.png) <br>
 3. Choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --" avec un mot de passe quelconque. La fonction de l'application ne fonctionnera pas mais la requête va supprimer la table MUtilisateurs puisque le commentaire "--" permet d'ignorer la fin de la première requête. <br>
    ![injection.png](injection.png) <br>
-5. etc.
+5. Rafraichir la table MUtilisateur et constater que nous avons un message d'erreur puisqu'elle n'existe plus. <br>
+   ![erreurtable.png](erreurtable.png) <br>
 
 ### Correctif implanté
 
