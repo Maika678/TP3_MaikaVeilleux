@@ -9,11 +9,11 @@
    ![filtres.png](filtres.png) <br>
 2. Ouvrir le fichier de la BD trouvé plus haut avec l'application DataGrip : <br>
    ![data.png](data.png) <br>
-4. Dans l'application, créer de nouveaux comptes utilisateurs et utiliser l'option "Les premiers ministres". <br>
+3. Dans l'application, créer de nouveaux comptes utilisateurs et utiliser l'option "Les premiers ministres". <br>
    ![ministre.png](ministre.png) <br>
-5. Rafraichir la table MUtilisateur et constater que nous avons accès aux mots de passes hachés des comptes créés et de tous les premiers ministres.
+4. Rafraichir la table MUtilisateur et constater que nous avons accès aux mots de passes hachés des comptes créés et de tous les premiers ministres.
    ![table.png](table.png) <br>
-6. 5 des 7 mots de passes ont pu être craqués à l'aide de CrackStation.
+5. 5 des 7 mots de passes ont pu être craqués à l'aide de CrackStation.
    ![crack.png](crack.png) <br>
 
 ### Correctif implanté
@@ -37,7 +37,7 @@ Les mots de passes n'ont pas pu être craqués.
    ![test.png](test.png) <br>
 2. Rafraichir la table MUtilisateur pour construire la table de traduction. Dans notre cas : 123456789 = bdfhjlnpr. Donc, 1=b, 2=d et ainsi de suite. <br>
    ![testbd.png](testbd.png) <br>
-4. Utiliser l'IA pour traduire tout les autres NAS chiffrés. <br>
+3. Utiliser l'IA pour traduire tout les autres NAS chiffrés. <br>
    ![gpt.png](gpt.png) <br>
    ![gptrep.png](gptrep.png) <br>
 
@@ -57,9 +57,9 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 
 1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres" pour avoir des données.
    ![creersql.png](creersql.png) <br>
-3. Choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --" avec un mot de passe quelconque. La fonction de l'application ne fonctionnera pas mais la requête va supprimer la table MUtilisateurs puisque le commentaire "--" permet d'ignorer la fin de la première requête. <br>
+2. Choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --" avec un mot de passe quelconque. La fonction de l'application ne fonctionnera pas mais la requête va supprimer la table MUtilisateurs puisque le commentaire "--" permet d'ignorer la fin de la première requête. <br>
    ![injection.png](injection.png) <br>
-5. Rafraichir la table MUtilisateur et constater que nous avons un message d'erreur puisqu'elle n'existe plus. <br>
+3. Rafraichir la table MUtilisateur et constater que nous avons un message d'erreur puisqu'elle n'existe plus. <br>
    ![erreurtable.png](erreurtable.png) <br>
 
 ### Correctif implanté
