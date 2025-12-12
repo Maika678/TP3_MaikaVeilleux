@@ -37,13 +37,13 @@ Les mots de passes n'ont pas pu être craqués.
    ![test.png](test.png) <br>
 2. Rafraichir la table MUtilisateur pour construire la table de traduction. Dans notre cas : 123456789 = bdfhjlnpr. Donc, 1=b, 2=d et ainsi de suite. <br>
    ![testbd.png](testbd.png) <br>
-3. Utiliser l'IA pour traduire tout les autres NAS chiffrés. <br>
+3. Utiliser l'IA pour traduire tous les autres NAS chiffrés. <br>
    ![gpt.png](gpt.png) <br>
    ![gptrep.png](gptrep.png) <br>
 
 ### Correctif implanté
 
-implanter un algorythme d'encryption dans l'application et modifier les fonctions "Encrypter" et "Decrypter" pour utiliser cet algorythme.<br>
+implanter un algorithme d'encryption dans l'application et modifier les fonctions "Encrypter" et "Decrypter" pour utiliser cet algorithme.<br>
 ![donnees.png](donnees.png) <br>
 
 Preuve que l'attaque ne fonctionne plus : <br>
@@ -68,7 +68,7 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 
 ### Correctif implanté
 
-Pour éviter les injections SQL, nous allons remplacer les concaténations de requete SQL dans le code de l'application par des paramètres. Un paramètre étant considéré comme des données et non du code, les valeurs ne seront plus insérées directement dans la requête SQL. Si on essaie une chaine d'injection, elle va se retrouver dans les données mais aucune commande ne sera exécutée.
+Pour éviter les injections SQL, nous allons remplacer les concaténations de requête SQL dans le code de l'application par des paramètres. Un paramètre étant considéré comme des données et non du code, les valeurs ne seront plus insérées directement dans la requête SQL. Si on essaie une chaine d'injection, elle va se retrouver dans les données mais aucune commande ne sera exécutée.
 ![correctifsql.png](correctifsql.png) <br>
 
 Preuve que l'attaque ne fonctionne plus :
