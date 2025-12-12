@@ -68,7 +68,9 @@ Il est maintenant impossible de créer une table de traduction. Sans la clé, l'
 
 ### Correctif implanté
 
-Description du correctif.
+Pour éviter les injections SQL, nous allons remplacer les concaténations de requete SQL dans le code de l'application par des paramètres. Un paramètre étant considéré comme des données et non du code, les valeurs ne seront plus insérées directement dans la requête SQL. Si on essaie une chaine d'injection, elle va se retrouver dans les données mais aucune commande ne sera exécutée.
 ![correctifsql.png](correctifsql.png) <br>
 
-Preuve que l'attaque ne fonctionne plus avec étapes + copie d'écran
+Preuve que l'attaque ne fonctionne plus :
+1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres" pour avoir des données. Puis, se déconnecter, choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --".
+
