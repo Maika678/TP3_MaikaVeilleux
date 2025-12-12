@@ -73,4 +73,5 @@ Pour éviter les injections SQL, nous allons remplacer les concaténations de re
 
 Preuve que l'attaque ne fonctionne plus :
 1. Dans l'application, créer un utilisateur test et utiliser l'option "Les premiers ministres" pour avoir des données. Puis, se déconnecter, choisir l'option connexion et entrer la requête suivante: "'; DROP TABLE IF EXISTS MUtilisateur;    --".
+   ![correctif3.png](correctif3.png) <br>
 
